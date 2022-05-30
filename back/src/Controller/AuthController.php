@@ -46,9 +46,8 @@ class AuthController extends AbstractController
 
         // Returns 201
         return $this->json(
-            $newUser, Response::HTTP_CREATED,
-            [],
-            ['groups' => ['show_user']]
+            ["email" => $newUser->getEmail()], 
+            Response::HTTP_CREATED
         );
     }  
 

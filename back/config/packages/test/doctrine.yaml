@@ -1,0 +1,4 @@
+doctrine:
+  dbal:
+    driver: 'pdo_mysql'  
+    url: 'mysql://root:root@mariadb:3306/dbfoodtrack_test?mariadb-10.3.25'

@@ -11,10 +11,11 @@ class WeekOfDateReservation extends Constraint
     public $messageReservationWithSameDate = 'at this date, this foodtrack has already booked with company.';
     public $messageMultipleReservation = 'this foodtrack on this date has already booked in the week on this company.';
 
+    /*
     public function getTargets()
     {
         return self::CLASS_CONSTRAINT;
     }
-
+*/
  
 }
